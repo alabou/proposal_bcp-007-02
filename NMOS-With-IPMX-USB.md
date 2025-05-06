@@ -1,4 +1,4 @@
-# NMOS With IPMX USB
+# AMWA BCP-007-02: NMOS With IPMX/USB
 {:.no_toc}  
 Copyright 2024, Matrox Graphics Inc.
 
