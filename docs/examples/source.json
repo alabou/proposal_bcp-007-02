@@ -1,0 +1,12 @@
+{
+    "id": "5d2b608c-0502-4000-ab00-4d5458005079",
+    "version": "1755189333:996248674",
+    "label": "Source USB 0",
+    "description": "This is the Source USB 0",
+    "tags": {},
+    "caps": {},
+    "device_id": "00000000-0100-4000-ab00-4d5458005079",
+    "parents": [],
+    "clock_name": "clk0",
+    "format": "urn:x-nmos:format:data"
+}
