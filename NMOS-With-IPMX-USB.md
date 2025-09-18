@@ -48,10 +48,10 @@ A `usb_device` object is defined as:
     "class": []integer,         // class of a device or classes if a composite device (integers in the range 0 to 255)
     "vendor": integer,          // vendor id (integer in the range 0 to 65535)
     "product": integer,         // product id (integer in the range 0 to 65535)
-    "serial": string,           // serial number
+    "serial": string,           // serial number (empty string "" if not available)
 }
 ```
-A USB Source MAY include a `usb_devices` attribute, which is an array of `usb_device` objects. This attribute describes the USB devices accessible to a Receiver via the USB data stream.  Inclusion of this information is optional.
+A USB Source MAY include a `usb_devices` attribute, which is an array of `usb_device` objects. This attribute describes the USB devices accessible to a Receiver via the USB data stream. Inclusion of this information is optional.
 
 Examples of Source resources are provided in [Examples](./examples).
 
